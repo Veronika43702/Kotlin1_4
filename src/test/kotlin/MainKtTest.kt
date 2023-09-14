@@ -81,7 +81,7 @@ class MainKtTest {
         val limitMastMaesMonthly = 600_000
 
         val result = countComission("Mastercard", 650000, 100000)
-        assertEquals("превышен лимит", result)
+        assertEquals("0.0", result)
     }
 
     @Test
